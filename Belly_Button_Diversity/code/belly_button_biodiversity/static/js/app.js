@@ -85,6 +85,11 @@ function buildCharts(sample) {
  * BONUS Solution
  * */
 function buildGauge(sample) {
+
+  // code resource:
+  // https://community.plot.ly/t/animations-on-gauge-needle/5804/3
+  //https://codepen.io/ascotto/pen/eGNaqe?editors=0010
+  
     var url = `/metadata/${sample}`;
 
     // grab the value of frequency from metadata
