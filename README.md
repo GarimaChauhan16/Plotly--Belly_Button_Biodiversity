@@ -16,7 +16,10 @@ The objective of this project is to build a Full-Stack application to build an i
 
 ### Step 1 - Plotly.js
 
-Using Plotly.js to build interactive charts for the dashboar:
+Using Plotly.js to build interactive charts for the dashboard:
+
+
+#### Pie Chart
 
 * Create a PIE chart that uses data from a samples route (`/samples/<sample>`) to display the top 10 samples.
 
@@ -26,7 +29,10 @@ Using Plotly.js to build interactive charts for the dashboar:
 
   * Use `otu_labels` as the hovertext for the chart.
 
+
   ![PIE Chart](Images/pie_chart.png)
+
+#### Bubble Chart
 
 * Create a Bubble Chart that uses data from the samples route (`/samples/<sample>`) to display each sample.
 
@@ -40,7 +46,10 @@ Using Plotly.js to build interactive charts for the dashboar:
 
   * Use `otu_labels` for the text values.
 
+
   ![Bubble Chart](Images/bubble_chart.png)
+
+#### Metadata
 
 * Display the sample metadata from the route `/metadata/<sample>`
 
@@ -48,9 +57,13 @@ Using Plotly.js to build interactive charts for the dashboar:
 
 * Update all of the plots any time that a new sample is selected.
 
+
 ![Example Dashboard Page](Images/dashboard_part1.png)
+
 ![Example Dashboard Page](Images/dashboard_part2.png)
 
+
+#### Gauge Chart
 
 * Adapt the Gauge Chart from <https://plot.ly/javascript/gauge-charts/> to plot the Weekly Washing Frequency obtained from the `/metadata/<sample>`route.
 
