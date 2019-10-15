@@ -10,15 +10,15 @@ The Belly Button Analysis dashboard is available at https://belly-button-biodive
 
 ## Background
 
-The objective of this project is to perform a Full-Stack Data Analysis to build an interactive dashboard exploring the Belly Button Biodiversity Dataset using Plotly.js, Flask and Heroku
+The objective of this project is to build a Full-Stack application to build an interactive dashboard exploring the Belly Button Biodiversity Dataset using Plotly.js, Flask and Heroku
 
 ## Objectives
 
 ### Step 1 - Plotly.js
 
-Use Plotly.js to build interactive charts for your dashboard.
+Using Plotly.js to build interactive charts for the dashboar:
 
-* Create a PIE chart that uses data from your samples route (`/samples/<sample>`) to display the top 10 samples.
+* Create a PIE chart that uses data from a samples route (`/samples/<sample>`) to display the top 10 samples.
 
   * Use `sample_values` as the values for the PIE chart.
 
