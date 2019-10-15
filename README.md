@@ -79,10 +79,3 @@ Using Plotly.js to build interactive charts for the dashboard:
 ## Step 2 - Heroku
 
 Deploy the Flask app to Heroku.
-
-
-- - -
-
-## Flask API
-
-Use Flask API starter code to serve the data needed for the plots.
